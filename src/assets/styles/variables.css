@@ -1,14 +1,15 @@
-:root{
-/*Primary Colors*/
+:root {
+  /*Primary Colors*/
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
 
---bright-orange: hsl(31, 77%, 52%);
---dark-cyan: hsl(184, 100%, 22%);
---very-dark-cyan: hsl(179, 100%, 13%);
+  /* Neutral Colors */
+  --transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
 
-/* Neutral Colors */
---transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
---very-light-gray: hsl(0, 0%, 95%);
-
-/* Typography */
---font-size: 15px
+  /* Typography */
+  --font-size: 15px;
+  --primary-font: "Lexend Deca";
+  --secondary-font: "Big Shoulders Display";
 }
