@@ -30,7 +30,7 @@ function App() {
   ];
   const listItems = columnDetails.map((col,index) => (
     <Column
-      key={index}
+      index={index}
       logo={col.logo}
       title={col.title}
       description={col.description}
