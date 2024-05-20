@@ -8,9 +8,16 @@
   src: url("./assets/fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf");
 }
 
-
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 767px) {
+  body {
+    height: 100vh;
+  }
 }

@@ -1,5 +1,5 @@
 .column-container {
-  padding: 32px;
+  padding: 48px;
 }
 h1 {
   text-transform: uppercase;
@@ -24,5 +24,13 @@ button {
 }
 button:active {
   border: 1px solid var(--very-light-gray);
-  color: var(--very-light-gray);
+}
+
+@media (min-width: 767px) {
+    .column-container{
+        max-width:225px;
+    }
+    p{
+        margin-bottom:60px;
+    }
 }
