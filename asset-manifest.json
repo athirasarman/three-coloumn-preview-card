@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/three-coloumn-preview-card/static/css/main.1d74b78c.css",
-    "main.js": "/three-coloumn-preview-card/static/js/main.96d29fb2.js",
+    "main.css": "/three-coloumn-preview-card/static/css/main.2883a4de.css",
+    "main.js": "/three-coloumn-preview-card/static/js/main.a039c1d9.js",
     "static/js/453.0448272b.chunk.js": "/three-coloumn-preview-card/static/js/453.0448272b.chunk.js",
     "static/media/BigShouldersDisplay-VariableFont_wght.ttf": "/three-coloumn-preview-card/static/media/BigShouldersDisplay-VariableFont_wght.c4e0e0af17b2c33b34ea.ttf",
     "static/media/LexendDeca-VariableFont_wght.ttf": "/three-coloumn-preview-card/static/media/LexendDeca-VariableFont_wght.affd92df84e8108992b6.ttf",
@@ -9,12 +9,12 @@
     "static/media/icon-suvs.svg": "/three-coloumn-preview-card/static/media/icon-suvs.058b664c311101933ebda84111ddd9b6.svg",
     "static/media/icon-sedans.svg": "/three-coloumn-preview-card/static/media/icon-sedans.e794502801c486bcffc3513f6f03141e.svg",
     "index.html": "/three-coloumn-preview-card/index.html",
-    "main.1d74b78c.css.map": "/three-coloumn-preview-card/static/css/main.1d74b78c.css.map",
-    "main.96d29fb2.js.map": "/three-coloumn-preview-card/static/js/main.96d29fb2.js.map",
+    "main.2883a4de.css.map": "/three-coloumn-preview-card/static/css/main.2883a4de.css.map",
+    "main.a039c1d9.js.map": "/three-coloumn-preview-card/static/js/main.a039c1d9.js.map",
     "453.0448272b.chunk.js.map": "/three-coloumn-preview-card/static/js/453.0448272b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d74b78c.css",
-    "static/js/main.96d29fb2.js"
+    "static/css/main.2883a4de.css",
+    "static/js/main.a039c1d9.js"
   ]
 }
