@@ -9,27 +9,32 @@ function App() {
     {
       logo: sedans,
       title: "Sedans",
+      backgroundColor:'var(--bright-orange)',
       description:
         "Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.",
     },
     {
       logo: suvs,
       title: "SUVs",
+      backgroundColor:'var(--dark-cyan)',
       description:
         "Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.",
     },
     {
       logo: luxury,
       title: "Luxury",
+      backgroundColor:'var(--very-dark-cyan)',
       description:
-        "  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
+        "Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
     },
   ];
-  const listItems = columnDetails.map((col) => (
+  const listItems = columnDetails.map((col,index) => (
     <Column
+      key={index}
       logo={col.logo}
       title={col.title}
       description={col.description}
+      backgroundColor={col.backgroundColor}
     ></Column>
   ));
   return (

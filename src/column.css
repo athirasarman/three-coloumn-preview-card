@@ -1,0 +1,23 @@
+.column-container{
+    padding: 32px;
+}
+h1{
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    color: var(--very-light-gray);
+    font-weight: 700;
+}
+p{
+    color: var(--transparent-white-paragraphs);
+    font-family: var(--primary-font);
+    font-size: var(--font-size);
+    line-height: 1.5;
+}
+button{
+    font-family: var(--primary-font);
+    font-size: var(--font-size);
+    background-color: var(--very-light-gray);
+    padding: 16px 24px;
+    border-radius: 32px;
+    border: none;
+}
